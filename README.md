@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rolodex App
+
+---
+
+Welcome to the Rolodex App! This app allows you to manage and filter your contacts. Follow the instructions below to set up and start using the app.
+
+## Installation
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the dependencies by running the following command:
+
+```shell
+npm install
+```
 
 ## Getting Started
 
-First, run the development server:
+To launch the Rolodex App, follow these steps:
 
-```bash
+Run the following command:
+
+```shell
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit http://localhost:3000 to access the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## Add New Contact
 
-To learn more about Next.js, take a look at the following resources:
+To add a new contact:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+On the home page, click the "Add New Contact" button.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Fill out the contact form with the required information, including the name, email, image URL, and phone number.
 
-## Deploy on Vercel
+Click the "Add Contact" button to save the contact.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Filter Contacts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To filter contacts by name:
+
+On the home page, enter the name you want to filter by in the search input field.
+
+The contacts list will be filtered dynamically based on the entered name.
+
+Contacts matching the search query will be displayed, while non-matching contacts will be hidden.
+
+## Edit Contact
+
+To edit an existing contact:
+
+On the home page, find the contact you want to edit in the contacts table.
+
+Click on the contact's name to navigate to the edit page.
+
+On the edit page, modify the contact's details as desired.
+
+Click the "Save Changes" button to save the updated contact information.
+
+## Testing
+
+The Rolodex App comes with a simple test to ensure the filter functionality. To run the test, use the following command:
+
+```shell
+npm test
+```
+
+**You do NOT need to create the app to perfectly make the test pass** and if you decide to add some of the extensions then it may not work.
+
+Good luck!

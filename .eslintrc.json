@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": [
+		"next/core-web-vitals",
+		"eslint:recommended",
+		"plugin:import/errors",
+		"prettier"
+	],
+	"rules": {
+		"no-console": 0,
+		"no-duplicate-imports": "error"
+	},
+	"env": {
+		"jest": true
+	}
 }
